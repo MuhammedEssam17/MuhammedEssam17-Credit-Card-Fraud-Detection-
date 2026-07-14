@@ -63,14 +63,19 @@ Isolation Forest isolates unusual observations instead of learning from labeled 
 
 ## Results
 
-The model successfully identified many fraudulent transactions while maintaining a low number of false alarms.
+Model Performance:
 
-Evaluation metrics include:
+- Accuracy: 99%
+- Precision (Fraud): 0.60
+- Recall (Fraud): 0.29
+- F1-score (Fraud): 0.39
 
-- Confusion Matrix
-- Precision
-- Recall
-- F1-score
+Confusion Matrix:
+
+|               | Predicted Normal | Predicted Fraud |
+|---------------|-----------------:|----------------:|
+| Actual Normal | 56,767           | 96              |
+| Actual Fraud  | 348              | 144             |
 
 ## Dataset:
 
