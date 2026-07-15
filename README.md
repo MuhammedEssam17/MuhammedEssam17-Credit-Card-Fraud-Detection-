@@ -53,7 +53,7 @@ Isolation Forest isolates unusual observations instead of learning from labeled 
 
 ---
 
-## Libraries Used
+## Technologies Used
 
 - Pandas
 - NumPy
